@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tax Calculator</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+</head>
+<body>
+ <div class="container">
+  <h1>Tax Calculator</h1>
+  <form id="tax-form">
+    <div class="input-group">
+      <label for="gross-income">Enter Gross Annual Income</label>
+      <input type="text" id="gross-income" name="grossIncome" placeholder="Enter Gross Annual Income" required>
+      <i class="fa-thin fa-exclamation" class="error-icon"></i>
+      <!-- <span class="error-icon1" ></span> -->
+      <!--data-error="Please enter a valid amount."  -->
+    </div>
+    <div class="input-group">
+      <label for="extra-income">Enter Extra Income</label>
+      <input type="text" id="extra-income" placeholder="Enter Extra Income" name="extraIncome">
+      <span class="error-icon" data-error="Please enter a valid amount."></span>
+    </div>
+    
+    <div class="input-group">
+      <label for="age">Enter Age group </label>
+      <select id="age" name="age" required>
+        <option value="">Select Age</option>
+        <option value="<40">Less than 40</option>
+        <option value=">=40 & <60">40 to less than 60</option>
+        <option value=">=60">60 or above</option>
+      </select>
+      <span class="error-icon" data-error="Please select your age."></span>
+    </div>
+    <div class="input-group">
+        <label for="deductions">Enter Deductions</label>
+        <input type="text" id="deductions" placeholder="Enter Deductions" name="deductions">
+        
+        <span class="error-icon" data-error="Please enter a valid amount."></span>
+      </div>
+    <button type="submit">Submit</button>
+
+    
+  </form>
+ </div>
+
+  <div id="modal" class="hidden">
+    <h2>Tax Calculation Results</h2>
+    <p>Taxable Income: <span id="taxable-income"></span></p>
+    <p>Tax Rate: <span id="tax-rate"></span></p>
+    <p>Tax Amount: <span id="tax-amount"></span></p>
+    <button id="close-modal">Close</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
