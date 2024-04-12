@@ -30,5 +30,7 @@ The Logic used in this project is:
 
 ## Screenshots
 
+<img width="941" alt="img1" src="https://github.com/Garvit-Sharma-git/taxCalculator/assets/110321247/3b90c8a7-7437-4053-b1f2-3bb232b83f25">
+
 
 
