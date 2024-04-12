@@ -39,21 +39,39 @@
         <input type="text" id="deductions" placeholder="Enter Deductions" name="deductions">
         
         <span class="error-icon" data-error="Please enter a valid amount."></span>
-      </div>
-    <button type="submit">Submit</button>
-
+    </div>
     
+    <button id="btn" type="submit">Submit</button>
   </form>
  </div>
 
+ <div class="popup">
+    <div class="popup-content">
+        <h1>Your Tax calculation results</h1>
+        <div class="popup-content2"><p>Taxable Income: <span id="taxable-income"></span></p>
+            <p>Tax Rate: <span id="tax-rate"></span></p>
+            <p>Tax Amount: <span id="tax-amount"></span></p></div>
+        <button class="close">Close</button>
+    </div> 
+</div>
+
   <div id="modal" class="hidden">
-    <h2>Tax Calculation Results</h2>
+    <!-- <h2>Tax Calculation Results</h2>
     <p>Taxable Income: <span id="taxable-income"></span></p>
     <p>Tax Rate: <span id="tax-rate"></span></p>
-    <p>Tax Amount: <span id="tax-amount"></span></p>
-    <button id="close-modal">Close</button>
+    <p>Tax Amount: <span id="tax-amount"></span></p> -->
+    <button id="close-modal" class="close1">Close</button>
   </div>
 
-  <script src="script.js"></script>
+  <script src="script.js">
+//     document.getElementById("btn").addEventListener("click",function(){
+//     document.querySelector(".popup").style.display="flex";
+// });
+
+// document.querySelector(".button1").addEventListener("click",function(){
+//     document.querySelector(".popup").style.display="none";
+// });
+  </script>
+
 </body>
 </html>

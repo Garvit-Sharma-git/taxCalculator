@@ -64,10 +64,10 @@ function calculateTax() {
     taxRate = 0;
   } else {
     const taxableAboveLimit = taxableIncome - 800000;
-    if (age <40) {
+    if (age === "<40") {
       taxRate = 0.3;
       taxAmount = taxableAboveLimit * taxRate;
-    } else if (age >= 40 && age <60) {
+    } else if (age === ">= 40 & <60") {
       taxRate = 0.4;
       taxAmount = taxableAboveLimit * taxRate;
     } else {
@@ -96,6 +96,14 @@ form.addEventListener('submit', (event) => {
 
 closeModalButton.addEventListener('click', () => {
   modal.classList.add('hidden');
+});
+
+document.getElementById("btn").addEventListener("click",function(){
+    document.querySelector(".popup").style.display="flex";
+});
+
+document.querySelector(".close").addEventListener("click",function(){
+    document.querySelector(".popup").style.display="none";
 });
 
 // Show error messages on hover by default for all input fields
