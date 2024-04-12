@@ -34,8 +34,13 @@ The Logic used in this project is:
 To deploy this project run
 
 ```bash
-  npm run deploy
+  git clone https://github.com/Garvit-Sharma-git/taxCalculator.git
 ```
+or Download the zip folder and unzip it and open it in VsCode.
+
+## Tech Stack
+
+**Stack:** Html, CSS, javascript
 
 
 
