@@ -10,6 +10,17 @@ https://iridescent-narwhal-3fecd7.netlify.app/
 
 
 
+## Using
+
+
+
+- The first input field is for gross annual income that is the overall income that you earn.
+- The second input field is for the extra income earned.
+- Third input field is for the age group selection.
+- Fourth field is for the deductions if you have any on the taxes.
+- Then click on submit  button and will get the furthur information regarding the taxes with an popup page.
+- Then in the popup page you can close it with an close button at the bottom.
+
 
 ## Appendix
 
