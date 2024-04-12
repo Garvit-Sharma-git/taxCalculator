@@ -4,10 +4,11 @@
 This is the calculator used for tax calculations where we can verify the tax rate, tax amount and tax income.It is an essential calculator for the working professionals.
 The Logic used in this project is:
 
+## Project link
 
-## Acknowledgements
+https://iridescent-narwhal-3fecd7.netlify.app/
 
- - [font awesome cdn](https://cdnjs.com/libraries/font-awesome)
+
 
 
 ## Appendix
@@ -42,5 +43,8 @@ or Download the zip folder and unzip it and open it in VsCode.
 
 **Stack:** Html, CSS, javascript
 
+## Acknowledgements
+
+ - [font awesome cdn](https://cdnjs.com/libraries/font-awesome)
 
 
